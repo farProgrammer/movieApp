@@ -1,0 +1,29 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  z-index: 1;
+  background-color: lightpink;
+  background-image: url(https://w0.peakpx.com/wallpaper/43/727/HD-wallpaper-next-gen-netflix-next-gen-movies-netflix.jpg);
+}
+
+.nav__avatar {
+  width: 80px;
+  object-fit: contain;
+  right: 0;
+  position: fixed;
+}
+.nav__black {
+  background-color: black;
+}
+.nav__logo {
+  position: fixed;
+  left: 0;
+  width: 100px;
+  object-fit: contain;
+  background-color: black;
+}
